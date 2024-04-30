@@ -1,0 +1,67 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$ZmztlewNvUZdVNfXvaD3QH$/snfZOKJGvlTGE9MEV0Es5JPfP1aIlIg2V3mdWrAFd4=",
+    "last_login": "2023-09-09T08:54:59.363Z",
+    "is_superuser": true,
+    "username": "Arthurobo",
+    "first_name": "",
+    "last_name": "",
+    "email": "arthuron57@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-09-09T08:01:21.281Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$vldgjDWPGTc4rBJjcU0fb1$B5y0lTUv/k4os7oYWBjgwRygTtGdmagckrQvT4e/s8o=",
+    "last_login": "2024-03-27T10:38:07.125Z",
+    "is_superuser": false,
+    "username": "Admin",
+    "first_name": "Admin",
+    "last_name": "Admin",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-09-09T08:53:19Z",
+    "groups": [],
+    "user_permissions": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      25,
+      26,
+      27,
+      28,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ]
+  }
+}
+]
