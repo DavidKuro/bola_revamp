@@ -95,16 +95,16 @@ WSGI_APPLICATION = 'bolabule.wsgi.application'
 # }
 
 # Production Database
-DB_NAME = "dbut7m6tbd85ic"
-DB_USER = "ehluvautnlwbeq"
-DB_PASSWORD = "69010be9b9ff69e2ee315ee1bf259a23ddb7f16bcc8a72877378f984344de740"
+DB_NAME = "d7n8oel0q351gr"
+DB_USER = "u4d90dv5ornr88"
+DB_PASSWORD = "p0aaacbce0f35861995af18b3db3e3fc5463111fc505b7715dc4bac593cb514f2"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': DB_NAME,
         'USER': DB_USER,
         'PASSWORD': DB_PASSWORD,
-        'HOST': 'ec2-44-194-102-142.compute-1.amazonaws.com',
+        'HOST': 'c97r84s7psuajm.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
